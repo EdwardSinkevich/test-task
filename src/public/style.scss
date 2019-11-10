@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input, button {
+  outline: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 60px;
+  background: #1f1fbf;
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    span {
+      color: #ffffff;
+      font-size: 22px;
+      padding-left: 20px;
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
